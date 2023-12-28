@@ -1,0 +1,76 @@
+{
+	"$schema": "config.schema.json",
+	"figma": {
+		"authToken": "<token-here>",
+		"baseUrl": "https://api.figma.com",
+		"version": 1
+	},
+	"colors": [
+		{
+			"name": "primary",
+			"default": "#2FA5F9",
+			"dark": "#067CD0",
+			"type": "hex"
+		},
+		{
+			"name": "secondary",
+			"default": "#A6A8C4",
+			"dark": "#3B3D59",
+			"type": "hex"
+		},
+		{
+			"name": "accent",
+			"default": "#E37957",
+			"dark": "#A63F1C",
+			"type": "hex"
+		},
+		{
+			"name": "text",
+			"default": "#02090F",
+			"dark": "#F2F8FD",
+			"type": "hex"
+		},
+		{
+			"name": "background",
+			"default": "#F9FAFB",
+			"dark": "#040506",
+			"type": "hex"
+		},
+		{
+			"name": "success",
+			"default": "#99E052",
+			"dark": "#78CC24",
+			"type": "hex"
+		},
+		{
+			"name": "Light/Warning",
+			"default": "#FEBD4D",
+			"type": "hex"
+		},
+		{
+			"name": "Light/Danger",
+			"default": "#EE2B2B",
+			"type": "hex"
+		},
+		{
+			"name": "Dark/Background",
+			"default": "#040506",
+			"type": "hex"
+		},
+		{
+			"name": "Dark/Success",
+			"default": "#78CC24",
+			"type": "hex"
+		},
+		{
+			"name": "Dark/Warning",
+			"default": "#FEAE25",
+			"type": "hex"
+		},
+		{
+			"name": "Dark/Danger",
+			"default": "#DE1212",
+			"type": "hex"
+		}
+	]
+}

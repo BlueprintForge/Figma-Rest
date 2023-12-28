@@ -1,0 +1,46 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"figma": {
+			"type": "object",
+			"properties": {
+				"authToken": {
+					"type": "string"
+				},
+				"baseUrl": {
+					"type": "string"
+				},
+				"version": {
+					"type": "number"
+				}
+			},
+			"required": ["authToken"]
+		},
+		"colors": {
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"name": {
+							"type": "string"
+						},
+						"default": {
+							"type": "string"
+						},
+						"dark": {
+							"type": "string"
+						},
+						"type": {
+							"type": "string",
+							"enum": ["hex", "rgb", "hsl"]
+						}
+					},
+					"required": ["name", "default", "type"]
+				}
+			]
+		}
+	},
+	"required": ["figma", "colors"]
+}
