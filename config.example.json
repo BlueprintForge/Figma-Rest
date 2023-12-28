@@ -43,33 +43,15 @@
 			"type": "hex"
 		},
 		{
-			"name": "Light/Warning",
+			"name": "warning",
 			"default": "#FEBD4D",
+			"dark": "#FEAE25",
 			"type": "hex"
 		},
 		{
-			"name": "Light/Danger",
+			"name": "danger",
 			"default": "#EE2B2B",
-			"type": "hex"
-		},
-		{
-			"name": "Dark/Background",
-			"default": "#040506",
-			"type": "hex"
-		},
-		{
-			"name": "Dark/Success",
-			"default": "#78CC24",
-			"type": "hex"
-		},
-		{
-			"name": "Dark/Warning",
-			"default": "#FEAE25",
-			"type": "hex"
-		},
-		{
-			"name": "Dark/Danger",
-			"default": "#DE1212",
+			"dark": "#DE1212",
 			"type": "hex"
 		}
 	]
